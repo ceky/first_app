@@ -21,4 +21,7 @@ module SessionsHelper
 	# returns an array with 2 elements: userId and salt
       cookies.signed[:remember_token] || [nil,nil]
     end
+	
+	def test
+	end
 end
